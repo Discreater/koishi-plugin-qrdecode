@@ -9,14 +9,23 @@
     "dist"
   ],
   "license": "MIT",
-  "scripts": {},
   "keywords": [
     "chatbot",
     "koishi",
     "plugin"
   ],
-  "devDependencies": {},
+  "koishi": {
+    "description": {
+      "en": "Decode QR codes from an image",
+      "zh": "从图片中解码二维码,支持反色"
+    }
+  },
   "peerDependencies": {
     "koishi": "^4.18.3"
+  },
+  "dependencies": {
+    "@napi-rs/canvas": "^0.1.65",
+    "@nuintun/qrcode": "^4.1.12",
+    "zxing-wasm": "^1.3.4"
   }
 }
