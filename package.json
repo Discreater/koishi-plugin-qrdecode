@@ -1,7 +1,7 @@
 {
   "name": "@discreater/koishi-plugin-qrdecode",
   "description": "Decode QR code",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "main": "lib/index.js",
   "typings": "lib/index.d.ts",
   "files": [
@@ -19,6 +19,11 @@
       "en": "Decode QR codes from an image",
       "zh": "从图片中解码二维码,支持反色"
     }
+  },
+  "homepage": "https://github.com/Discreater/qrdecode",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Discreater/qrdecode.git"
   },
   "peerDependencies": {
     "koishi": "^4.18.3"
